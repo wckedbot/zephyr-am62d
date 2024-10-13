@@ -35,7 +35,11 @@ config SOC_AM6442_M4
 	bool
 	select SOC_SERIES_AM6X_M4
 
-config SOC_J721E_MAIN_R5F0_0
+config SOC_J721E_R5
+	bool
+	select SOC_SERIES_AM6X_R5
+
+config SOC_AM62D_R5
 	bool
 	select SOC_SERIES_AM6X_R5
 
@@ -45,4 +49,5 @@ config SOC_SERIES
 config SOC
 	default "am6234" if SOC_AM6234_M4 || SOC_AM6234_A53
 	default "am6442" if SOC_AM6442_M4
-	default "j721e" if SOC_J721E_MAIN_R5F0_0
+	default "j721e" if SOC_J721E_R5
+	default "am62d" if SOC_AM62D_R5

@@ -12,4 +12,9 @@ family:
       - name: m4
     - name: j721e
       cpuclusters:
-      - name: main_r5f0_0
+      - name: main/r5f0_0
+    - name: am62d
+      cpuclusters:
+      - name: a53
+      - name: main/r5f
+      - name: mcu/r5f
