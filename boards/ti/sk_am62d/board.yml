@@ -1,0 +1,5 @@
+board:
+  name: sk_am62d
+  vendor: ti
+  socs:
+  - name: am62d

@@ -1,0 +1,7 @@
+# Copyright (C) 2023 BeagleBoard.org Foundation
+# Copyright (C) 2023 S Prashanth
+#
+# SPDX-License-Identifier: Apache-2.0
+
+config BOARD_SK_AM62D
+	select SOC_AM62D_R5 if BOARD_SK_AM62D_AM62D_MAIN_R5F

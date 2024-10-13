@@ -1,0 +1,12 @@
+identifier: sk_am62d/am62d/main/r5f
+name: TI AM62D R5 STARTER KIT (SK)
+type: mcu
+arch: arm
+ram: 32
+toolchain:
+  - zephyr
+  - gnuarmemb
+  - xtools
+supported:
+  - uart
+vendor: ti
