@@ -51,11 +51,11 @@
 &pinctrl {
 	uart0_tx_default: uart0_tx_default {
 		/* 0x1c is address of padconfig register of p8.34 and 14 is mux mode */
-		pinmux = <K3_PINMUX(0x1c, PIN_OUTPUT, MUX_MODE_14)>;
+		pinmux = <K3_PINMUX(0x0018, PIN_OUTPUT, MUX_MODE_0)>;
 	};
 
 	uart0_rx_default: uart0_rx_default {
 		/* 0x14 is address of padconfig register of p8.22 and 14 is mux mode */
-		pinmux = <K3_PINMUX(0x14, PIN_INPUT, MUX_MODE_14)>;
+		pinmux = <K3_PINMUX(0x0014, PIN_INPUT, MUX_MODE_0)>;
 	};
 };
